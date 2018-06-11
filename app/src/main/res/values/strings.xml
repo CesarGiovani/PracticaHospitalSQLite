@@ -1,0 +1,25 @@
+<resources>
+    <string name="app_name">Hospital</string>
+    <string name="title_activity_principal">principal</string>
+    <string name="registroespe">Registro Especialidades</string>
+    <string name="tituloReporteEsp">.:: ESPECIALIDADES ::.</string>
+    <string name="buscarActulizar">.:: Buscar-Actualizar ::.</string>
+    <string name="espe">Especialidad</string>
+    <string name="Descrip">Descripcion</string>
+    <string name="espmenu">Especialidad</string>
+    <string name="sintomaMenu">Sintoma</string>
+    <string name="registroSintoma">Registro de Sintoma</string>
+    <string name="sintomaRe">Sintoma</string>
+    <string name="menuPaciente">Paciente</string>
+    <string name="rePaciente">Registro Paciente</string>
+    <string name="textPaciente">Paciente</string>
+    <string name="rePaNombre">Nombre</string>
+    <string name="rePaAPat">A.Paterno</string>
+    <string name="reAMatPac">A.Materno</string>
+    <string name="reEdadPac">Edad</string>
+    <string name="reTelPac">Telefono</string>
+    <string name="tituloSintoma">.:: SINTOMA ::.</string>
+    <string name="tituloPaciente">.:: PACIENTE ::.</string>
+    <string name="regisCedMedico">Cédula Prof.</string>
+    <string name="medicoMenu">Medico</string>
+</resources>

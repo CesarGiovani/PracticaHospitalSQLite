@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="mx.edu.tesji.practicahospitalsqlite">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".Splash">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".ReporteEspecialidad"
+            android:label="Listado de Especialidades" />
+        <activity
+            android:name=".BuscarActualizarEsp"
+            android:label="Actualizar-Eliminar Especialidad" />
+        <activity
+            android:name=".RegistroEspecialidad"
+            android:label="Registrar Especialidad" />
+        <activity android:name=".MainActivity" />
+        <activity
+            android:name=".RegistroSintoma"
+            android:label="Registrar Sintoma" />
+        <activity
+            android:name=".RegistroPaciente"
+            android:label="Registrar Paciente" />
+        <activity
+            android:name=".ReporteSintoma"
+            android:label="Listado de Sintomas" />
+        <activity
+            android:name=".ReportePaciente"
+            android:label="Listado de Pacientes" />
+        <activity
+            android:name=".BuscarActualizarPac"
+            android:label="Actualizar-Eliminar Paciente" />
+        <activity
+            android:name=".BuscarActualizarSin"
+            android:label="Actualizar-Eliminar Sintoma" />
+        <activity android:name=".RegistroMedico" android:label="Registrar Medico"></activity>
+    </application>
+
+</manifest>

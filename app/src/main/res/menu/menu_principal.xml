@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:title="@string/espmenu" >
+        <menu >
+            <item
+                android:id="@+id/itmRegistrarEspecialidad"
+                android:title="Registrar" />
+            <item
+                android:id="@+id/itmActualizaEspe"
+                android:title="Buscar-Actualizar" />
+            <item
+                android:id="@+id/itmReporteEspe"
+                android:title="Reporte" />
+        </menu>
+    </item>
+    <item android:title="@string/sintomaMenu" >
+        <menu >
+            <item
+                android:id="@+id/itmRegistrarSintoma"
+                android:title="Registrar" />
+            <item
+                android:id="@+id/itmActualizarSin"
+                android:title="Buscar-Actualizar" />
+            <item
+                android:id="@+id/itmReporteSin"
+                android:title="Reporte" />
+        </menu>
+    </item>
+    <item android:title="@string/menuPaciente">
+        <menu>
+            <item
+                android:id="@+id/itmRegistrarPaciente"
+                android:title="Registrar" />
+            <item
+                android:id="@+id/itmActualizarPac"
+                android:title="Buscar-Actualizar" />
+            <item
+                android:id="@+id/itmReportePac"
+                android:title="Reporte" />
+        </menu>
+    </item>
+    <item android:title="@string/medicoMenu">
+        <menu>
+            <item
+                android:id="@+id/itmRegistrarMed"
+                android:title="Registrar" />
+            <item
+                android:id="@+id/itmActualizarMed"
+                android:title="Buscar-Actualizar" />
+            <item
+                android:id="@+id/itmReporteMed"
+                android:title="Reporte" />
+        </menu>
+    </item>
+</menu>
