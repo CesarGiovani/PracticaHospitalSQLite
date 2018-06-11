@@ -27,11 +27,12 @@ public class RegistroMedico extends AppCompatActivity {
         SQLiteDatabase db = conexion.getReadableDatabase();
 
         Cursor fila = db.rawQuery("SELECT * FROM Especialidad",null);
-
+        //La fila empieza en el contador 1
         int cont = fila.getCount()+1;
 
         String array[] = new String[cont];
         fila.moveToFirst();
+        //Se agrega la opcion seleccione
         array[0]="--Seleccione--";
         int x=1;
         while (x<cont){
